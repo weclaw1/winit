@@ -91,6 +91,7 @@ pub(crate) fn implement_touch(
                         pt.wid,
                     );
                 },
+                _ => (),
             }
         }, ())
     }).unwrap()
